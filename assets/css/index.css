@@ -1,0 +1,28 @@
+﻿* {
+    font-family: arial, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti !important;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    zoom: 1;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    background-color: #24272C;
+    background-image: url(../img/bg.jpg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.wrapper {
+    margin-top: 50px;
+    min-height:1500px;
+    padding-top:200px;
+    background-color:rgba(0,0,0,.3);
+}
