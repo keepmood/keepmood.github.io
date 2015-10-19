@@ -13,25 +13,9 @@
     -o-background-size: cover;
 }
 
-.start_atlas_1 {
-    background-image: url(http://cdn.duitang.com/uploads/item/201410/20/20141020152533_WkUBk.jpeg);
-}
-.start_atlas_2 {
-    background-image: url(http://cdn.duitang.com/uploads/item/201410/20/20141020152406_2dx2n.jpeg);
-}
-.start_atlas_3 {
-    background-image: url(http://cdn.duitang.com/uploads/item/201410/20/20141020152114_2m5aN.jpeg);
-}
-.start_atlas_4 {
-    background-image: url(http://cdn.duitang.com/uploads/item/201410/20/20141020152245_mZW4t.jpeg);
-}
-.start_atlas_5 {
-    background-image: url(http://cdn.duitang.com/uploads/item/201410/20/20141020151941_HZeHi.jpeg);
-}
-
-
 .wrapper {
     margin-top: 50px;
+    min-height: 1500px;
     padding-top: 200px;
 }
 
@@ -44,8 +28,8 @@
 }
 
 .navbar-inverse {
-    background-color: transparent;
-    border: none;
+    background-color: none;
+    border-color: rgba(0,0,0,.3);
 }
 
     .navbar-inverse .navbar-nav > li > a {
