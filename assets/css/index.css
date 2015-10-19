@@ -4,7 +4,7 @@
 
 .background {
     background-color: #24272C;
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/bg_n3.jpg);
     background-position: center 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,7 +15,26 @@
 
 .wrapper {
     margin-top: 50px;
-    min-height:1500px;
-    padding-top:200px;
-    background-color:rgba(0,0,0,.3);
+    padding-top: 200px;
 }
+
+.container.main {
+    min-height: 600px;
+}
+
+.container.disqus {
+    background-color: rgba(0,0,0,.3);
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border: none;
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #fff;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: #fff;
+    }

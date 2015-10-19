@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no">
     <meta name="description" content="昨日黄花，梦幻泡影。">
-    <meta name="keywords" content="Blog,个人Blog,张小北,keepmood">
+    <meta name="keywords" content="张小北,博客,主页,Blog,个人Blog,keepmood">
     <meta name="author" content="张小北">
     <meta name="robots" content="index,follow">
     <meta name="application-name" content="keepmood.github.io">
@@ -22,6 +22,8 @@
     <link rel="apple-touch-icon-precomposed" href="assets/img/logo/logo.jpg">
     <link rel="shortcut icon" href="assets/img/logo/logo_sm.jpg">
     <link rel="canonical" href="http://keepmood.github.io/">
+    <!-- Traffic statistics -->
+    <script src="assets/js/ts.baidu.js"></script>
 </head>
 <body class="background">
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -33,7 +35,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand hidden-sm strong" href="http://keepmood.github.io">张小北</a>
+                <a class="navbar-brand hidden-sm" href="http://keepmood.github.io">张小北</a>
             </div>
             <div class="navbar-collapse collapse" role="navigation">
                 <ul class="nav nav-pills navbar-nav">
@@ -41,18 +43,33 @@
                     <li><a href="/about">关于</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right hidden-sm">
-                    <li><a href="">点我没反应</a></li>
+                    <li><a href=""></a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="wrapper">
-        <div class="container">
+        <div class="container main">
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <h1 style="color:#fff;">个人广告位不招租</h1>
                 </div>
             </div>
+        </div>
+        <div class="container disqus">
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES * * */
+                var disqus_shortname = 'keepmood'; // Required - Replace example with your forum shortname
+
+                var disqus_title = '张小北123';
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function () {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript style="color:#fff;text-align:center;">评论功能需要开启浏览器 Javascript 功能</noscript>
         </div>
     </div>
     <footer class="footer">
