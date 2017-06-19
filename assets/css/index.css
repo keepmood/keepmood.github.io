@@ -29,6 +29,9 @@ body {
     background-image: url(http://cdn.duitang.com/uploads/item/201410/20/20141020151941_HZeHi.jpeg);
 }
 
+.start_atlas_6{
+    background-image: url(/assets/img/bg_n1.jpg);
+}
 
 .wrapper {
     margin-top: 50px;
