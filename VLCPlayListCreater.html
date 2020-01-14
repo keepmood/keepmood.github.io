@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线视频源VLC播放列表生成器</title>
+</head>
+
+<body>
+    <div style="width: 80%; margin:0 auto;">
+        <center><h1>在线视频源VLC播放列表生成器</h1></center>
+        <div>
+            <label for="result">播放列表名称：</label>
+            <p>
+                <input id="title" type="text" placeholder="请输入播放列表名称" value="VCL播放列表" />
+            </p>
+            <label for="result">专辑名称：</label>
+            <p>
+                <input id="album" type="text" placeholder="请输入播放列表专辑名称" />
+            </p>
+            <label for="result">源数据：</label>
+            <p>
+                <textarea name="source" id="source"
+                    placeholder="请输入播放源，每行仅限一个播放源，如果包含视频源名称请把名称放在前面并以','号分隔，例如：&#13;&#10;CCTV-4k,http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000266303.m3u8&#13;&#10;http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000210103.m3u8"
+                    cols="30" rows="10" style="width: 100%;"></textarea name="result" id="result" cols="30" rows="10" style="width: 100%;">
+            </p>
+        </div>
+        <div>
+            <p>
+                <Button id="create" type="button">生成</Button>
+                <Button id="save" type="button">保存</Button> 
+            </p>
+        </div>
+        <div>
+        <label for="result">结果预览（可手动调整）：</label>
+        <p>
+            <textarea name="result" id="result" cols="30" rows="10" style="width: 100%;"></textarea>
+            </p>
+        </div>
+    </div style="width: 80%; margin:0 auto;">
+    <script>
+        const vlcTMP = ``
+        function createVLCPlayList() {
+            const title = document.querySelector('#title').value.trim()
+            const album = document.querySelector('#album').value.trim()
+            const source = document.querySelector('#source').value.trim()
+            const sources = source && source.split('\n')
+            if (sources && sources.length > 0) {
+                let trackList = [], extension = []
+                sources.forEach((item, index) => {
+                    item = item.trim()
+                    let trackTitle, content = item.indexOf(',') > 0 ? item.split(',') : item
+                    if (content instanceof Array) {
+                        trackTitle = content[0]
+                    }
+                    console.log(trackTitle, '|', trackTitle ? content[1].trim() : content.trim())
+                    trackList.push(`
+        <track>
+            <location>${trackTitle ? content[1].trim() : content.trim()}</location>${trackTitle ? `\n            <title>${trackTitle.trim()}</title>` : ''}${album ? `\n            <album>${album}</album>` : ''}
+            <extension application="http://www.videolan.org/vlc/playlist/0">
+                <vlc:id>${index}</vlc:id>
+            </extension>
+        </track>`)
+                    extension.push(`
+        <vlc:item tid="${index}"/>`)
+                });
+                const result = `<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+    <title>${title}</title>
+    <trackList>${trackList.join('')}
+    </trackList>
+    <extension application="http://www.videolan.org/vlc/playlist/0">${extension.join('')}
+    </extension>
+</playlist>`
+                document.querySelector('#result').value = result
+            }
+        }
+        function saveContent() {
+            const title = document.querySelector('#title').value.trim()
+            const content = document.querySelector('#result').value.trim()
+            if (content) {
+                const downLink = document.createElement('a')
+                downLink.download = `${title}.xspf`
+                const blob = new Blob([content])
+                downLink.href = URL.createObjectURL(blob)
+                document.body.appendChild(downLink)
+                downLink.click()
+                document.body.removeChild(downLink)
+            } else {
+                alert('没什么能保存的')
+            }
+        }
+        document.querySelector('#create').addEventListener('click', (e) => {
+            createVLCPlayList()
+        })
+        document.querySelector('#save').addEventListener('click', (e) => {
+            saveContent()
+        })
+    </script>
+</body>
+
+</html>
