@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+    <title>IPTV-新加坡</title>
+    <trackList>
+        <track>
+            <location>https://dlau142f16b92.cloudfront.net/hls/ch5ctv/master02.m3u8</location>
+            <title>5 频道(英语)</title>
+            <album>新加坡</album>
+            <extension application="http://www.videolan.org/vlc/playlist/0">
+                <vlc:id>0</vlc:id>
+            </extension>
+        </track>
+        <track>
+            <location>https://d34e90s3s13i7n.cloudfront.net/hls/ch8ctv/master02.m3u8</location>
+            <title>8 频道(普通话)</title>
+            <album>新加坡</album>
+            <extension application="http://www.videolan.org/vlc/playlist/0">
+                <vlc:id>1</vlc:id>
+            </extension>
+        </track>
+        <track>
+            <location>https://d3inlz9elsutjl.cloudfront.net/hls/chuctv/master02.m3u8</location>
+            <title>U 频道(普通话)</title>
+            <album>新加坡</album>
+            <extension application="http://www.videolan.org/vlc/playlist/0">
+                <vlc:id>2</vlc:id>
+            </extension>
+        </track>
+        <track>
+            <location>https://ddftztnzt6o79.cloudfront.net/hls/oktoctv/master02.m3u8</location>
+            <title>奥多频道(少儿)</title>
+            <album>新加坡</album>
+            <extension application="http://www.videolan.org/vlc/playlist/0">
+                <vlc:id>3</vlc:id>
+            </extension>
+        </track>
+        <track>
+            <location>https://d11h6a6nhl9kj9.cloudfront.net/hls/suriactv/master02.m3u8</location>
+            <title>朝阳频道(马来语)</title>
+            <album>新加坡</album>
+            <extension application="http://www.videolan.org/vlc/playlist/0">
+                <vlc:id>4</vlc:id>
+            </extension>
+        </track>
+        <track>
+            <location>https://d39v9xz8f7n8tk.cloudfront.net/hls/vsnthmctv/master02.m3u8</location>
+            <title>春天频道 (淡米尔语)</title>
+            <album>新加坡</album>
+            <extension application="http://www.videolan.org/vlc/playlist/0">
+                <vlc:id>5</vlc:id>
+            </extension>
+        </track>
+        <track>
+            <location>http://drsh196ivjwe8.cloudfront.net/hls/cnai/03.m3u8</location>
+            <title>失效-亚洲新闻台(英语)</title>
+            <album>新加坡</album>
+            <extension application="http://www.videolan.org/vlc/playlist/0">
+                <vlc:id>6</vlc:id>
+            </extension>
+        </track>
+    </trackList>
+    <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:item tid="0"/>
+        <vlc:item tid="1"/>
+        <vlc:item tid="2"/>
+        <vlc:item tid="3"/>
+        <vlc:item tid="4"/>
+        <vlc:item tid="5"/>
+        <vlc:item tid="6"/>
+    </extension>
+</playlist>

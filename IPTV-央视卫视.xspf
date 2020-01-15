@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>IPTV-央视卫视</title>
+	<trackList>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000266303.m3u8</location>
+			<title>CCTV-4k</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000210103.m3u8</location>
+			<title>CCTV-1</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000203603.m3u8</location>
+			<title>CCTV-2</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000203803.m3u8</location>
+			<title>CCTV-3</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000204803.m3u8</location>
+			<title>CCTV-4</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000205103.m3u8</location>
+			<title>CCTV-5</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000204503.m3u8</location>
+			<title>CCTV-5+</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000203303.m3u8</location>
+			<title>CCTV-6</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000510003.m3u8</location>
+			<title>CCTV-7</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000203903.m3u8</location>
+			<title>CCTV-8</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000499403.m3u8</location>
+			<title>CCTV-9</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000203503.m3u8</location>
+			<title>CCTV-10</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000204103.m3u8</location>
+			<title>CCTV-11</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000202603.m3u8</location>
+			<title>CCTV-12</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000204603.m3u8</location>
+			<title>CCTV-13</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000204403.m3u8</location>
+			<title>CCTV-14</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000205003.m3u8</location>
+			<title>CCTV-15</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000204203.m3u8</location>
+			<title>CCTV-17</title>
+			<album>CCTV</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000296203.m3u8</location>
+			<title>湖南卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000292403.m3u8</location>
+			<title>东方卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000295503.m3u8</location>
+			<title>浙江卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000292703.m3u8</location>
+			<title>广东卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000295603.m3u8</location>
+			<title>江苏卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000292203.m3u8</location>
+			<title>深圳卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000293903.m3u8</location>
+			<title>黑龙江卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000281301.m3u8</location>
+			<title>遼寧卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000295501.m3u8</location>
+			<title>浙江卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>26</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000292701.m3u8</location>
+			<title>廣東卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>27</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000295601.m3u8</location>
+			<title>江蘇卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>28</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000292201.m3u8</location>
+			<title>深圳卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>29</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000292401.m3u8</location>
+			<title>東方卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>30</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000298001.m3u8</location>
+			<title>安微卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>31</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000297801.m3u8</location>
+			<title>重慶卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>32</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000292501.m3u8</location>
+			<title>東南卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>33</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000294201.m3u8</location>
+			<title>廣西卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>34</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000293301.m3u8</location>
+			<title>貴州卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>35</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000293401.m3u8</location>
+			<title>河北卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>36</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000296101.m3u8</location>
+			<title>河南卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>37</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000294501.m3u8</location>
+			<title>湖北卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>38</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000294101.m3u8</location>
+			<title>江西卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>39</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000294801.m3u8</location>
+			<title>山東卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>40</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000295001.m3u8</location>
+			<title>四川卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>41</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000296201.m3u8</location>
+			<title>湖南卫视</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>42</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/2000293901.m3u8</location>
+			<title>黑龍江衛視</title>
+			<album>地方卫视</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>43</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+		<vlc:item tid="10"/>
+		<vlc:item tid="11"/>
+		<vlc:item tid="12"/>
+		<vlc:item tid="13"/>
+		<vlc:item tid="14"/>
+		<vlc:item tid="15"/>
+		<vlc:item tid="16"/>
+		<vlc:item tid="17"/>
+		<vlc:item tid="18"/>
+		<vlc:item tid="19"/>
+		<vlc:item tid="20"/>
+		<vlc:item tid="21"/>
+		<vlc:item tid="22"/>
+		<vlc:item tid="23"/>
+		<vlc:item tid="24"/>
+		<vlc:item tid="25"/>
+		<vlc:item tid="26"/>
+		<vlc:item tid="27"/>
+		<vlc:item tid="28"/>
+		<vlc:item tid="29"/>
+		<vlc:item tid="30"/>
+		<vlc:item tid="31"/>
+		<vlc:item tid="32"/>
+		<vlc:item tid="33"/>
+		<vlc:item tid="34"/>
+		<vlc:item tid="35"/>
+		<vlc:item tid="36"/>
+		<vlc:item tid="37"/>
+		<vlc:item tid="38"/>
+		<vlc:item tid="39"/>
+		<vlc:item tid="40"/>
+		<vlc:item tid="41"/>
+		<vlc:item tid="42"/>
+		<vlc:item tid="43"/>
+	</extension>
+</playlist>
